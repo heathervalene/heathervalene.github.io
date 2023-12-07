@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Julius Sans One', sans-serif;
+font-family: 'Major Mono Display', monospace;
+
+}
+
+#name {
+    color: white;
+    font-size: 8vmin;
+}
+
+#subtitle {
+    color:white;
+    font-size: 4vmin;
+    padding: 3vmin;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(59, 72,57);
+    display: grid;
+    grid-template-columns: 30vmin;
+}
+
+
+.infobox {
+    width: 26vmin;
+    height: 5vmin;
+    text-align: left;
+    border: solid black;
+    margin: 5vmin;
+    color: white;
+    padding: 1vmin;
+    text-decoration: none;
+}

@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Julius Sans One', sans-serif;
+font-family: 'Major Mono Display', monospace;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(59, 72,57);
+}
+
+#back {
+    text-decoration: none;
+    color: white;
+}
