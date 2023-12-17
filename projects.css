@@ -1,16 +1,36 @@
 * {
     box-sizing: border-box;
     font-family: 'Julius Sans One', sans-serif;
-font-family: 'Major Mono Display', monospace;
+  font-family: 'Major Mono Display', monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
     height: 100vh;
     margin: 0;
     background-color: rgb(59, 72,57);
+    display: grid;
+}
+
+.header {
+    text-align: center;
+    font-size: 5vmin;
+    padding: 3vmin;
+}
+
+#memory {
+    height:50vmin;
+    width: 50vmin;
+    border:none;
+    padding: 3vmin;
+   
 }
 
 #back {
     text-decoration: none;
+    text-align: center;
+    font-size: 3vmin;
     color: white;
+    align-items: end;
+    
 }
