@@ -10,12 +10,10 @@ const memoryGame = 'images/MemoryGame';
 
 /*----- cached elements -----*/
 
-const projectBoard = document.querySelector('.project-list');
-const projectOne = document.getElementById('project_1');
-const projectTwo = document.getElementById('project_2');
-const projectThree = document.getElementById('project_3')
-const projectFour = document.getElementById('project_4');
+
 const allCards = document.querySelectorAll('.card');
+const cardFront = document.getElementById('card-front');
+const backCard = document.getElementById('card-back');
 
 
 /*----- event listeners -----*/
@@ -31,12 +29,25 @@ allCards.forEach((card) => {
 
 //handle project card being clicked//
 function handleCardClick(evt) {
-    const clickedCard = evt.target;
+    const clickedCard = evt.currentTarget;
+    flipCard(clickedCard);
+   
 }
 
 
-//function to flip the individual project card when clicked//
+//function to flip the individual project card when clicked
+const flipCard = (card) => {
+    if (!card.classList.contains('flipped')) {
+        card.classList.add('flipped');
+    } else {
+        card.classList.remove('flipped');
+    }
+}
 
+const flipBack = () => {
+ allCards.forEach((card) => {
+    card.classList.remove('flipped');
+ })
 
+}
 
-//function to flip back the individual project card when clicked//
