@@ -1,6 +1,6 @@
 /*----- constants -----*/
 
-const memoryGame = 'images/memoryGame.png';
+const memoryGame = 'images/MemoryGame';
 
 
 

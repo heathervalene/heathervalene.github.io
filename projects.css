@@ -18,15 +18,56 @@ body {
     padding: 3vmin;
 }
 
-#memory {
-    height:50vmin;
-    width: 50vmin;
-    border:none;
-    padding: 3vmin;
-   
+
+.card {
+    perspective: 1000px;
+    width: 200px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .card.flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .card-front,
+  .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .card-front {
+    transform: rotateY(0deg);
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
-#back {
+.card-back p {
+    margin: 0;
+}
+
+  #back {
     text-decoration: none;
     text-align: center;
     font-size: 3vmin;
