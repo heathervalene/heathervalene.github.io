@@ -1,22 +1,17 @@
 
-
+const projectOne = 'images/MemoryGame.png';
 
 
 /*----- cached elements -----*/
 
 
-const allCards = document.querySelectorAll('.card');
-const cardInner = document.querySelector('card-inner')
+
 
 
 
 /*----- event listeners -----*/
 
-document.addEventListener('DOMContentLoaded', allCards);
 
-allCards.forEach((card) => {
-    card.addEventListener('click', handleCardClick);
-})
 
 
 
