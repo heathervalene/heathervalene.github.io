@@ -19,13 +19,14 @@ body {
   padding: 3vmin;
 }
 
-#h3 {
-  font-size: 1.5em;
+.header {
+  font-size: 4em;
+
 }
 
 
 .card{
-  background-color: black;
+  background-color: rgb(30, 36, 30);
   color: white;
   text-align: center;
   display: flex;
