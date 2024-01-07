@@ -1,23 +1,23 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Julius Sans One', sans-serif;
-    font-family: 'Major Mono Display', monospace;
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(59, 72, 57);
-    
-  
-  }
+  box-sizing: border-box;
+  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Major Mono Display', monospace;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(59, 72, 57);
 
-  body {
-    background-color: rgb(59, 72, 57);
-    margin: 0;
+
 }
 
-  
+body {
+  background-color: rgb(59, 72, 57);
+  margin: 0;
+}
+
+
 .grid-container {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
-   grid-gap: 10px;
+  grid-gap: 10px;
   padding: 20px;
 
 }
@@ -35,7 +35,7 @@
 #subtitle {
   font-size: 18px;
   color: white;
-  grid-column: 1 ;
+  grid-column: 1;
   justify-self: start;
   align-self: start;
 }
@@ -49,12 +49,13 @@ img {
 }
 
 a {
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
   color: white;
   justify-self: center;
   grid-column: 2;
- 
+
 
 }
 
@@ -65,6 +66,7 @@ a {
 }
 
 .infobox {
+  font-size: 18px;
   text-decoration: none;
   color: white;
   border: 1px solid rgb(30, 36, 30);
@@ -81,7 +83,7 @@ a {
 
 
 #slide-right {
-  
+
   -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -130,27 +132,25 @@ a {
 
 /* Media Queries */
 @media screen and (min-width: 600px) {
-    .grid-container {
-        grid-template-columns: 1fr 1fr;
-    }
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
 
-    img {
-        max-width: none;
-    }
+  img {
+    max-width: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .grid-container {
-        grid-template-columns: 1fr 2fr;
-    }
+  .grid-container {
+    grid-template-columns: 1fr 2fr;
+  }
 
-    #name {
-        font-size: 30px;
-    }
+  #name {
+    font-size: 30px;
+  }
 
-    #subtitle {
-        font-size: 22px;
-    }
+  #subtitle {
+    font-size: 22px;
+  }
 }
-  
-  
