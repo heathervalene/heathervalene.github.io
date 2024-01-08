@@ -18,14 +18,19 @@ body {
 
 .header {
   text-align: center;
-  font-size: 5vmin;
+  font-size: 7vmin;
   padding: 3vmin;
 }
 
-.header {
-  font-size: 4em;
-
+.card-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap;
+ 
 }
+
+
 
 
 .card {
