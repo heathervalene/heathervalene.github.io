@@ -41,8 +41,8 @@ body {
 }
 
 img {
-  width: 60%;
-  height: auto;
+  width: 45%;
+  height: 100%;
   border-radius: 50%;
   border: 3px solid rgb(30, 36, 30);
   justify-self: center;
@@ -60,7 +60,7 @@ a {
 }
 
 #slide-right {
-  padding-top: 10%;
+  padding-top: 5%;
   grid-column: span 3;
 
 }

@@ -40,8 +40,8 @@ body {
   border-radius: 2em;
   margin: 2em;
   padding: 2em;
-  width: 500px; /* Set a fixed width for the card */
-  height: 400px; /* Set a fixed height for the card */
+  width: 500px;
+  height: 400px; 
   perspective: 1000px;
   position: relative; 
 }
@@ -94,3 +94,5 @@ a {
   color: white;
 
 }
+
+
