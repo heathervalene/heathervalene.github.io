@@ -95,4 +95,14 @@ a {
 
 }
 
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%; /* Set width to 100% for smaller screens */
+    max-width: none; /* Remove maximum width for smaller screens */
+  }
+  #card-back {
+    padding: 0.5em; /* Adjust padding for smaller screens */
+    font-size: 0.8em;
+  }
+}
 
