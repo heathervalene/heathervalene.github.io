@@ -57,7 +57,7 @@ body {
   height: 100%;
   text-align: center;
   transform-style: preserve-3d;
-  transition: transform 0.6s;
+  transition: transform 0.8s;
 }
 
 #card-front,
@@ -97,12 +97,12 @@ a {
 
 @media screen and (max-width: 600px) {
   .card {
-    width: 100%; /* Set width to 100% for smaller screens */
-    max-width: none; /* Remove maximum width for smaller screens */
+    width: 100%; 
+    max-width: none; 
   }
   #card-back {
-    padding: 0.5em; /* Adjust padding for smaller screens */
-    font-size: 0.8em;
+    padding: 0.5em; 
+    font-size: 0.7em;
   }
 }
 
