@@ -157,9 +157,6 @@ a {
   }
 
   .detail-container {
-    grid-column: 1 / -1; 
-    grid-row: 3 / 4; 
-    
     font-size: 15px;
   }
 

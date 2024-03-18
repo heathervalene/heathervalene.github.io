@@ -104,7 +104,13 @@ a {
 
 }
 
+
+/* Media Queries */
 @media screen and (max-width: 600px) {
+
+  nav a {
+    font-size: 15px;
+  }
   .card {
     width: 100%; 
     max-width: none; 
