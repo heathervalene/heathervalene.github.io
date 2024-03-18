@@ -15,11 +15,15 @@
     <link rel="icon" href="images/logo1.png">
 
 </head>
-<nav> <a id="back" href="index.html">Back</a></nav>
+ <a id="back" href="index.html">Back</a>
 
 </body>
-<div class="header">Projects</div>
+<nav>
+    <a href="#front-end">Front-end Projects</a>
+    <a href="#full-stack">Full Stack Projects</a>
+</nav>
 <div class="card-container">
+    <section id="full-stack">
     <div class="card" ontouchstart="this.classList.toggle('hover')">
         <div class="flipper">
         <div id="card-front"><img src="./images/MuscleMemory.png" style="width: 450px;height: 450px;"></div>
@@ -66,6 +70,34 @@
     </div>
     </div>
 </div>
+</section>
+<section id="front-end">
+    <div class="card" ontouchstart="this.classList.toggle('hover')">
+        <div class="flipper">
+        <div id="card-front"><img src="/images/Pickled_ss.png"  style="width: 460px;height: 470px"></div>
+        <div id="card-back">
+            <h3 id="h3">Pickled</h3>
+            <p>Pickled is a pickling recipe app to view and add your own pickling recipes.</p>
+            <h3 id="h3">Technologies:</h3>
+            <p>React, Materialize CSS, Emailjs</p>
+            <p>Deployed on Netlify</p>
+            <p><a href="https://pickled.netlify.app/" target="_blank"> Live site@ https://pickled.netlify.app/</a></p>
+        </div>
+    </div>
+    </div>
+    <div class="card" ontouchstart="this.classList.toggle('hover')">
+        <div class="flipper">
+        <div id="card-front"><img src="/images/Screenshot 2024-03-14 at 1.08.59 PM.png"  style="width: 460px;height: 470px"></div>
+        <div id="card-back">
+            <h3 id="h3">Advice Generator</h3>
+            <p>Advice Generator uses an API to generate random advice for the user.</p>
+            <h3 id="h3">Technologies:</h3>
+            <p>React, Bootstrap CSS, adviceslip API</p>
+            <p>Deployed on Netlify</p>
+            <p><a href="https://advice-api-generator.netlify.app/" target="_blank"> Live site@ https://advice-api-generator.netlify.app/</a></p>
+        </div>
+    </div>
+    </div>
 <div class="card" ontouchstart="this.classList.toggle('hover')" >
     <div class="flipper">
     <div id="card-front"><img src="/images/MemoryGame.png" style="width: 450px;height: 450px"></div>
@@ -93,6 +125,7 @@
     </div>
 </div>
 </div>
+</section>
 </div>
 </body>
 </html>
