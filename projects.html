@@ -5,127 +5,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="/node_modules/materialize-css/dist/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Major+Mono+Display&family=Montserrat:wght@100&display=swap"
         rel="stylesheet">
-    <script defer src="main.js"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>Projects</title>
     <link rel="icon" href="images/logo1.png">
 
 </head>
- <a id="back" href="index.html">Back</a>
-
 </body>
 <nav>
-    <a href="#front-end">Front-end Projects</a>
-    <a href="#full-stack">Full Stack Projects</a>
+    <div class="nav-wrapper">
+    <a class="nav-item" href="index.html">Home</a>
+    <a class="nav-item" href="/about.html">About Me</a>
+</div>
 </nav>
-<div class="card-container">
-    <section id="full-stack">
-    <div class="card" ontouchstart="this.classList.toggle('hover')">
-        <div class="flipper">
-        <div id="card-front"><img src="./images/MuscleMemory.png" style="width: 450px;height: 450px;"></div>
-        <div id="card-back">
-            <h3 id="h3">MuscleMemory</h3>
-            <p>Muscle Memory is a full stack web application designed to enhance the user’s fitness journey by providing specific workouts, also allowing the user to log and track their fitness journey.</p>
-            <h3 id="h3">Technologies:</h3>
-            <p>Front-end: React</p>
+
+<div class="container">
+    <div class="title">Projects</div>
+
+  <div class="row">
+    <div class="col s12 m6 l4">
+    <div class="card">
+        <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="./images/muscle_Memory_SS2.png"></div>
+        <div class="card-content">
+            <span class="card-title activator">MuscleMemory<i class="material-icons icon right">more_vert</i></span>
+            <a class="site" href="https://muscle-memory-p4-30fa7080ab95.herokuapp.com/musclegroup" target="_blank"> Live site</a>
+           
+        </div>
+        
+        <div class="card-reveal">
+            
+            <span class="card-title grey-text text-darken-4"><i class="material-icons icon right">close</i></span>
+            <p>Muscle Memory is a full stack web and mobile responsive app designed to enhance the user’s fitness journey by providing specific workouts and allowing the user to log and track their fitness journey.</p>
+            <h5>Technologies:</h5>
+            <p>Front-end: React, ReCharts, Axios</p>
             <p>Back-end: Node.js, Express, MongoDB, Mongoose</p>
             <p>Deployed on Heroku</p>
-            <p><a href="https://muscle-memory-p4-30fa7080ab95.herokuapp.com/musclegroup" target="_blank"> Live site@
-                https://muscle-memory-p4-30fa7080ab95.herokuapp.com/musclegroup</a></p>
-        </div>
+            
+            
         </div>
     </div>
-    <div class="card" ontouchstart="this.classList.toggle('hover')">
-        <div class="flipper">
-        <div id="card-front"><img src="/images/mood_form.png" style="width: 450px;height: 450px;"></div>
-        <div id="card-back">
-            <h3 id="h3">MoodWave</h3>
-            <p>MoodWave is a fullstack web application that allows you to document your moods, match them with tunes, and immerse yourself in self-reflection through mood journaling and music, jamming along with how you're feeling.</p>
-            <h3 id="h3">Technologies:</h3>
+</div>
+
+<div class="col s12 m6 l4">
+    <div class="card">
+        <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/images/Mood_wave_2.png" ></div>
+            <div class="card-content">
+                <span class="card-title activator">MoodWave<i class="material-icons icon right">more_vert</i></span>
+                <a class="site" href="https://mood-wave-99c894937c77.herokuapp.com/" target="_blank"> Live site</a>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"><i class="material-icons icon right">close</i></span>
+            <p>MoodWave is a fullstack web application that allows the user to document their moods, match them with tunes, and immerse yourself in self-reflection through mood journaling and music, jamming along with how you're feeling.</p>
+            <h5>Technologies:</h5>
             <p>Front-end: HTML5, CSS3, Javascript</p>
             <p>Back-end: Django, Python, AWS, Postgresql</p>
             <p>Deployed on Heroku</p>
-            <p><a href="https://mood-wave-99c894937c77.herokuapp.com/" target="_blank"> Live site@
-                https://mood-wave-99c894937c77.herokuapp.com/</a></p>
+            
         </div>
-        </div>
+    
     </div>
-<div class="card" ontouchstart="this.classList.toggle('hover')">
-    <div class="flipper">
-    <div id="card-front"><img src="/images/Screenshot 2024-01-02 at 3.14.16 PM.png" style="width: 450px;height: 450px;"></div>
-    <div id="card-back">
-        <h3 id="h3">NY Trails App</h3>
+</div>
+
+<div class="col s12 m6 l4">
+<div class="card">
+    
+    <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/images/nytrails_ss2.png"></div>
+    <div class="card-content">
+        <span class="card-title activator">New York Trails<i class="material-icons icon right">more_vert</i></span>
+        <a class="site" href="https://ny-trails-app.fly.dev/trails" target="_blank"> Live site</a>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4"><i class="material-icons icon right">close</i></span>
         <p>The NY Trails app allows a user to login and browse hiking trails and join the Fire Tower challange. This is
             a fullstack application utilizing CRUD operations.</p>
-        <h3 id="h3">Technologies:</h3>
+        <h5>Technologies:</h5>
         <p>Front-end: HTML5, CSS3, Javascript</p>
         <p>Back-end: Express, Node, MongoDB, Google oAuth, Google Maps API, OpenWeather API</p>
         <p>Deployed on Fly.io</p>
-        <p><a href="https://ny-trails-app.fly.dev/trails" target="_blank"> Live site@
-            https://ny-trails-app.fly.dev/</a></p>
+        
     </div>
     </div>
 </div>
-</section>
-<section id="front-end">
-    <div class="card" ontouchstart="this.classList.toggle('hover')">
-        <div class="flipper">
-        <div id="card-front"><img src="/images/Pickled_ss.png"  style="width: 460px;height: 470px"></div>
-        <div id="card-back">
-            <h3 id="h3">Pickled</h3>
+
+<div class="col s12 m6 l4">
+    <div class="card">
+        <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/images/pickled_ss2.png"  ></div>
+        <div class="card-content">
+            <span class="card-title activator">Pickled<i class="material-icons icon right">more_vert</i></span>
+            <a class="site" href="https://pickled.netlify.app/" target="_blank"> Live site</a>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"><i class="material-icons icon right">close</i></span>
             <p>Pickled is a pickling recipe app to view and add your own pickling recipes.</p>
-            <h3 id="h3">Technologies:</h3>
+            <h5>Technologies:</h5>
             <p>React, Materialize CSS, Emailjs</p>
             <p>Deployed on Netlify</p>
-            <p><a href="https://pickled.netlify.app/" target="_blank"> Live site@ https://pickled.netlify.app/</a></p>
+            
         </div>
+    
     </div>
-    </div>
-    <div class="card" ontouchstart="this.classList.toggle('hover')">
-        <div class="flipper">
-        <div id="card-front"><img src="/images/Screenshot 2024-03-14 at 1.08.59 PM.png"  style="width: 460px;height: 470px"></div>
-        <div id="card-back">
-            <h3 id="h3">Advice Generator</h3>
+</div>
+
+<div class="col s12 m6 l4">
+    <div class="card">    
+        <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/images/advice_ss2.png"  ></div>
+        <div class="card-content">
+            <span class="card-title activator">Random Advice Generator<i class="material-icons icon right">more_vert</i></span>
+            <a class="site" href="https://advice-api-generator.netlify.app/" target="_blank"> Live site</a>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4"><i class="material-icons icon right">close</i></span>
             <p>Advice Generator uses an API to generate random advice for the user.</p>
-            <h3 id="h3">Technologies:</h3>
+            <h5>Technologies:</h5>
             <p>React, Bootstrap CSS, adviceslip API</p>
             <p>Deployed on Netlify</p>
-            <p><a href="https://advice-api-generator.netlify.app/" target="_blank"> Live site@ https://advice-api-generator.netlify.app/</a></p>
+           
         </div>
+   
     </div>
-    </div>
-<div class="card" ontouchstart="this.classList.toggle('hover')" >
-    <div class="flipper">
-    <div id="card-front"><img src="/images/MemoryGame.png" style="width: 450px;height: 450px"></div>
-    <div id="card-back">
-        <h3 id="h3">Memory Game</h3>
+</div>
+
+<div class="col s12 m6 l4">
+<div class="card">
+    <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/images/memory_ss2.png"></div>
+    <div class="card-content">
+        <span class="card-title activator">Memory Game<i class="material-icons icon right">more_vert</i></span>
+        <a class="site" href="https://horror_memory_game.surge.sh/" target="_blank"> Live site</a>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4"><i class="material-icons icon right">close</i></span>
         <p>Memory Cards is a game in which you match 2 cards of the same image. Try to beat your time by playing again.
         </p>
-        <h3 id="h3">Technologies:</h3>
+        <h4>Technologies:</h4>
         <p>Front-end: HTML5, CSS3, Javascript</p>
         <p>Deployed on Surge</p>
-        <p><a href="https://horror_memory_game.surge.sh/" target="_blank"> Live site@ horror_memory_game.surge.sh</a></p>
+        
     </div>
+
 </div>
 </div>
-<div class="card" ontouchstart="this.classList.toggle('hover')">
-    <div class="flipper">
-    <div id="card-front"><img src="/images/Screenshot 2024-01-07 at 3.15.32 PM.png"  style="width: 450px;height: 450px"></div>
-    <div id="card-back">
-        <h3 id="h3">Tic-Tac-Toe</h3>
+
+<div class="col s12 m6 l4">
+    <div class="card">
+      
+        <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/images/faq_ss2.png" ></div>
+        <div class="card-content">
+            <span class="card-title activator">FAQ<i class="material-icons icon right">more_vert</i></span>
+            <a class="site" href="https://rad-madeleine-02c307.netlify.app/" target="_blank"> Live site</a>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"><i class="material-icons icon right">close</i></span>
+            <p>A simple interactive FAQ accordian.</p>
+            <h5>Technologies:</h5>
+            <p>Front-end: HTML5, CSS3, Javascript</p>
+            <p>Deployed on Netlify</p>
+            
+        </div>
+    </div>
+</div> 
+
+<div class="col s12 m6 l4">
+<div class="card">
+  
+    <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/images/tic_ss2.png" ></div>
+    <div class="card-content">
+        <span class="card-title activator">Tic-Tac-Toe<i class="material-icons icon right">more_vert</i></span>
+        <a class="site" href="https://dazzling-tic-tac-toe.surge.sh/" target="_blank"> Live site</a>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4"><i class="material-icons icon right">close</i></span>
         <p>Tic-Tac-Toe is a 2 player game to get 3 of the same in a row or column.</p>
-        <h3 id="h3">Technologies:</h3>
+        <h5>Technologies:</h5>
         <p>Front-end: HTML5, CSS3, Javascript</p>
         <p>Deployed on Surge</p>
-        <p><a href="https://dazzling-tic-tac-toe.surge.sh/" target="_blank"> Live site@ https://dazzling-tic-tac-toe.surge.sh/</a></p>
+        
     </div>
 </div>
 </div>
-</section>
+</div>
 </div>
 </body>
-</html>

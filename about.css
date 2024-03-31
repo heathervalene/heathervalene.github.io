@@ -1,0 +1,117 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #3F5E5A;
+  color:#B6CECB;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+.nav-wrapper {
+  background-color: #283F3B;
+  text-align: center;
+}
+
+.nav-item {
+font-size: 38px;
+margin: 20px;
+color:#B6CECB;
+font-weight: 100;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+.head-intro {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 300 ;
+    
+}
+
+.intro-section {
+  display: flex;
+  justify-content: center;
+}
+
+.waving-hand {
+    font-size: 30px;
+    margin-left: 10px;
+    animation: wave 2s;
+    animation-iteration-count: 2;
+}
+
+@keyframes wave {
+    0%, 20%, 60%, 100% {
+      transform: rotate(0deg);
+    }
+    40% {
+      transform: rotate(30deg);
+    }
+    80% {
+      transform: rotate(-30deg);
+    }
+  }
+
+.one {
+    grid-column: 1/2;
+    grid-row: 1;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.image {
+    width: 80%;
+    height: 100%;
+    border-radius: 50%;
+    grid-column: 2;  
+  
+}
+
+section {
+    font-size: 20px;
+    font-weight: 200;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .grid {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+
+ .head-intro {
+    font-size: 18px;
+ }
+
+    .waving-hand {
+        font-size: 20px;
+    }
+
+    .image {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        }
+
+        .one {
+            font-size: 20px;
+        }
+    
+}
+
+
+

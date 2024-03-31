@@ -1,76 +1,34 @@
+
+@import "~materialize-css/dist/css/materialize.min.css";
+
 * {
   box-sizing: border-box;
   font-family: 'Julius Sans One', sans-serif;
   font-family: 'Major Mono Display', monospace;
   font-family: 'Montserrat', sans-serif;
- 
-
-
-}
-
-body {
-  background-color: #3F5E5A;
   margin: 0;
+  padding: 0;
+  background-color: #3F5E5A;
 }
 
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto 1fr;
-  gap: 20px;
-  padding: 20px;
-}
-
-.title-container {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  margin-left: 30px;
-}
-
-.detail-container {
-  color:#CEDEDC;
-  font-size: 20px;
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-  margin-left:30px;
-}
-
-.contact-container {
-  grid-column: 2 / 3;
-  grid-row: 1 / 3;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-
-#name {
+.name {
+  margin-top: 50px;
   font-size: 50px;
   font-weight: bold;
-  color: #2D2D2A;
-  grid-column: 1;
-  grid-row: 1;
-  justify-self: start;
+  color: #FCFCFC;
+  text-align: center;
+ 
 }
 
 #subtitle {
-  font-size: 27px;
+  font-size: 30px;
   color: #B6CECB;
-  margin-top: 15px;
-  grid-column: 1;
-  justify-self: start;
-  align-self: start;
+  text-align: center;
+  margin-bottom: 30px;
+ 
 }
 
-img {
-  height: 100%;
-  border-radius: 50%;
-  border: 3px solid #283F3B;
- 
- 
-}
 
 a {
   font-size: 25px;
@@ -82,7 +40,7 @@ a {
 
 
 .infobox {
-  font-size: 20px;
+  font-size: 24px;
   text-decoration: none;
   color: #CEDEDC;
   background-color: #283F3B;
@@ -90,7 +48,7 @@ a {
   border-radius: 8px;
   padding: 10px;
   display: flex;
-  margin: 10px 40px 0px 40px;
+  
  
 }
 

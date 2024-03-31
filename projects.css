@@ -1,123 +1,92 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
 * {
   box-sizing: border-box;
   font-family: 'Julius Sans One', sans-serif;
   font-family: 'Major Mono Display', monospace;
   font-family: 'Montserrat', sans-serif;
-}
-
-body {
   margin: 0;
+  padding: 0;
   background-color: #3F5E5A;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 nav {
-  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-nav a {
+.nav-wrapper {
+  background-color: #283F3B;
+  text-align: center;
+}
+
+.nav-item {
 font-size: 38px;
 margin: 20px;
 color:#B6CECB;
-}
-
-
-#full-stack {
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  flex-wrap: wrap;
- 
-} 
-
-#front-end {
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  flex-wrap: wrap;
 
 }
 
+.title {
+  text-align: center;
+  font-size: 50px;
+  color: #B6CECB;
+}
 
 .card {
+  height: 100%;
+}
+
+.site {
+  font-size: 20px;
+color:#B6CECB
+}
+
+
+.card-content {
+  min-height: 150px;
   background-color: #283F3B;
-  color: white;
+  
+}
+
+.card-title {
+  background-color: #283F3B;
+  color:#B6CECB;
+  
+}
+
+.icon {
+  background-color: #283F3B;
+  color:#B6CECB
+}
+
+.card-reveal {
+  background-color: #283F3B !important;
+
+}
+
+p {
+  background-color: #283F3B;
+  color:#B6CECB;
+  font-size: 15px;
   text-align: center;
-  border-radius: 2em;
-  margin: 2em;
-  padding: 2em;
-  width: 500px;
-  height: 400px; 
-  perspective: 1000px;
-  position: relative; 
+  margin-top:10px;
 }
 
-
-  .card:hover .flipper {
-    transform: rotateY(180deg);
-  }
-
-.flipper {
-  position: relative;
-  width: 100%;
-  height: 100%;
+h5 {
+  background-color: #283F3B;
+  color: #B6CECB;
   text-align: center;
-  transform-style: preserve-3d;
-  transition: transform 0.8s;
 }
 
-#card-front,
-#card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-
-}
-
-
-#card-back {
-  transform: rotateY(180deg);
-}
-
-#card-front img {
-  width: 100%;
-  height: 100%;
-  max-width: 100%; 
-  max-height: 100%; 
-  object-fit: contain;
-}
-
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-#back {
-  text-decoration: none;
-  font-size: 3vmin;
-  color: white;
-
-}
-
-
-/* Media Queries */
 @media screen and (max-width: 600px) {
 
-  nav a {
-    font-size: 15px;
+  .nav-item {
+    font-size: 25px;
   }
-  .card {
-    width: 100%; 
-    max-width: none; 
-  }
-  #card-back {
-    padding: 0.5em; 
-    font-size: 0.7em;
-  }
+
+.title {
+  font-size: 30px;
+}
+  
 }
 
