@@ -39,7 +39,7 @@ a {
   margin-top: 20px;
 }
 
-a[href^="#"] {
+html {
   scroll-behavior: smooth;
 }
 

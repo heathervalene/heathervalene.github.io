@@ -28,11 +28,16 @@ color:#B6CECB;
 
 
 .title {
-  text-align: center;
   font-size: 50px;
   font-weight: bold;
   color: white;
   margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
 }
 
 .card {
@@ -89,7 +94,9 @@ h5 {
 
 .title {
   font-size: 30px;
+  margin-bottom: 10px;
 }
+
   
 }
 

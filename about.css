@@ -48,7 +48,7 @@ font-weight: 100;
     font-size: 30px;
     margin-left: 10px;
     animation: wave 2s;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
 }
 
 @keyframes wave {
